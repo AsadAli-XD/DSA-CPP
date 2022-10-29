@@ -31,8 +31,3 @@
 *.exe
 *.out
 *.app
-
-# Directories
-.vscode
-
-# Files
