@@ -24,7 +24,9 @@ bool isFull(){
 
 // Display value at the top of stack.
 int showTop(){
+    if(!isEmpty())
     return stack[top];   // Returning the value of at top index of Stack
+    else return -1;
 }
 
 // Push function for stack
